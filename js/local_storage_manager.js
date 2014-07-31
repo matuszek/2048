@@ -27,6 +27,7 @@ function LocalStorageManager() {
 }
 
 LocalStorageManager.prototype.localStorageSupported = function () {
+
   var testKey = "test";
   var storage = window.localStorage;
 
